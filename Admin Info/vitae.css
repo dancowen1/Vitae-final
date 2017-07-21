@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: nunito;
+    font-weight: lighter;
+}
+
+
+.vitae-bar{
+    background-color: #6548C0;
+    color:white;
+    height: 40px;
+    display: flex;
+}
+
+.vitae-box{
+    width:50px;
+    margin-top: 6px;
+    margin-left: 15px;
+    font-size: 25px;
+     font-weight: lighter;
+
+}
+
+.login-bar{
+    background-color: #342074;
+}
+
+.button-box{
+    float: right;
+    position: absolute;
+    right: 15px;
+    height: inherit;
+}
+
+.button-1{
+    font-size: 16px;
+    border: none;
+    background-color: inherit;
+    margin-right:15px;
+    color: whitesmoke;
+    width: 120px;
+    height: inherit;
+    font-weight:300;
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, #6548C0 50%, #7e67cb 50%);
+    -webkit-transition: background-position 1s;
+    -moz-transition: background-position 1s;
+    transition: background-position 1s;
+}
+
+.button-1:hover {
+    background-position: 0 -100%;
+}
+
+.login-bar{
+    font-size: 150px;
+    color:whitesmoke;
+    height:160px;
+}
+.wrd{
+    padding-top:60px;
+    font-size: 60px;
+    margin-left:50px;
+}
+
+.boxr{
+    margin-top:30px;
+    display:block;
+    margin-left:450px;
+
+}
+
+.input-buff{
+    margin-top: 7px;
+    margin-left:px;
+    height: 50px;
+    font-size: 20px;
+    border:none;
+    color:black;
+    background-color:#ded7f4;
+    width:535px;
+}
+
+
+#cont-btn{
+    border:none;
+    font-family: nunito;
+    font-size: 40px;
+    width:120px;
+    height:50px;
+    background-color:#342074;
+    color:whitesmoke;
+    margin-left:196px;
+    margin-top:250px;
+}
+.btn-text{
+    margin:0px;
+    padding:0px;
+    margin-bottom: ;
+    font-size: 20px;
+
+}
+
+.get-strt{
+    text-decoration: underline;
+}
+
+.acc-line{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+h1{
+    font-size:27px;
+
+}
+
+
+#second-inp{
+}
+
+.choice-div{
+    display: flex;
+    margin-left:0px;
+    height: 40px;
+}
+
+.picker-div{
+    width:230px;
+    height:250px;
+    border: solid 1px black;
+    margin-right:50px;
+    margin-top:24px;
+    background-color:#cdc3ef;
+    text-align: center;
+   
+}
+
+#admin-email{
+    border: solid 2px #6548C0;
+}
+
+.default-first{
+    margin-left:00px;
+}
+
+#bold-wr{
+    width:224px;
+    background-color: #baaeea;
+    font-family: nunito;
+    height:25px;
+    border:none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.obsqr{
+}
+
+#obsqr1{
+    margin-top:30px;
+
+
+}
+
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+a{
+    text-decoration: none !important;
+    color: whitesmoke;
+}

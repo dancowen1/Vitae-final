@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="vitae.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:Light,Extra-Light,Bold" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+    <title>Vitae</title>
+    <script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class = "vitae-bar">
+        <div class = "vitae-box">Vitae</div>
+        <div class = "button-box">
+            <button id = "about-btn" class="button-1">About</button>
+            <button id = "support-btn" class="button-1">Support</button>
+            <button id = "sa-btn" class="button-1">System Admin</button>
+        </div>
+    </div>
+    <div class = "login-bar"><h1>Getting Started</h1></div>
+    <div class = "input-div">
+        <div class= "boxr">
+          <div class= "name-sect">
+              <p>What is your name?</p>
+              <input id = "first-name" class = "input-buff" placeholder="First Name" type="">
+              <input id = "last-name" class = "input-buff" placeholder="Last Name"><br/>
+            </div>
+            <div class = "email-sect">
+                <p>What is your email address?</p>
+              <input id = "email-input" class = "input-buff" placeholder="Email" type="email">
+            </div>
+            <button id="cont-btn" class="input-buff" ><p class="btn-text" ><a  onclick="writeUserData()" href="/Users/danrc/Desktop/LiquidThought/Vitaejs/password set/index.html" >Continue</a></p></button>
+            </div>
+        </div>
+        <script src="app.js"></script>
+  </body>
+</html>

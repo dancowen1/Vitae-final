@@ -1,0 +1,394 @@
+body{
+   margin:0;
+   padding:0;
+   font-family: 'Nunito', sans-serif;
+   font-weight: 200;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: nunito;
+    font-weight: lighter;
+}
+
+.vitae-bar {
+    background-color: #6548C0;
+    color: white;
+    height: 40px;
+    display: flex;
+}
+
+.vitae-box {
+    width: 50px;
+    margin-top: 6px;
+    margin-left: 15px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.login-bar {
+    background-color: #342074;
+}
+
+.button-box {
+    float: right;
+    position: absolute;
+    right: 15px;
+    height: inherit;
+}
+
+.button-1 {
+    font-size: 16px;
+    border: none;
+    background-color: inherit;
+    margin-right: 15px;
+    color: whitesmoke;
+    width: 120px;
+    height: inherit;
+    font-weight: 300;
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, #6548C0 50%, #7e67cb 50%);
+    -webkit-transition: background-position 1s;
+    -moz-transition: background-position 1s;
+    transition: background-position 1s;
+    margin-top:0px;
+}
+
+.button-1:hover {
+    background-position: 0 -100%;
+}
+
+.login-bar {
+    font-size: 150px;
+    color: whitesmoke;
+    height: 160px;
+}
+
+.wrd {
+    padding-top: 60px;
+    font-size: 60px;
+    margin-left: 50px;
+}
+
+
+.my-team h2, .my-toolbox h2, .settings h2{
+  margin-left: 25px;
+}
+
+.my-toolbox h3{
+  margin-left: 45px;
+}
+
+.dashboard{
+  display: flex;
+}
+
+.welcome{
+  width: 250px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.welcome img{
+  height: 100px;
+  width: 100px;
+}
+
+.welcome h1, .welcome h2{
+  font-weight: lighter;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.welcome h1{
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.welcome h2{
+  font-size: 14px;
+}
+
+.info{
+  width:550px;
+  padding-top: 30px;
+  font-weight: 200;
+}
+
+.info h1{
+  font-weight: lighter;
+  font-size: 26px;
+  text-decoration: underline;
+}
+
+.announcements-head, .notifications-head, .messages-head{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.announcements-head h1, .notifications-head h1, .messages-head h1{
+  font-weight: lighter;
+  margin-bottom: 0px;
+}
+
+.announcements-head h2, .notifications-head h2, .messages-head h2{
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.announcements-head h2{
+  margin-left: 200px;
+}
+
+.announcements-list{
+  display: flex;
+}
+
+.announcement-names h1{
+  font-weight: lighter;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.announcement-names{
+  width: 200px;
+}
+
+.actions{
+  display: flex;
+  margin-bottom: 0px;
+}
+
+.announcement-actions{
+  margin-left: 225px;
+}
+
+.announcement-actions h1{
+  font-weight: 200;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 18px;
+  margin-top:0px;
+  margin-bottom: 12px;
+}
+
+#first{
+  margin-top: 0px;
+}
+
+.notifications-head h2{
+  margin-left: 285px;
+}
+
+.new-notification h1{
+  text-decoration: none;
+  font-size: 18px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.new-notification h2{
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+.new-message h1{
+  text-decoration: none;
+  font-size: 18px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.new-message h2{
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+.messages-head h2{
+  margin-left: 280px;
+}
+
+.new-message{
+  display: flex;
+}
+
+.message-pic img{
+  height: 45px;
+  width: 45px;
+}
+
+.message-info{
+  margin-left: 10px;
+}
+
+.quick h1, .quick h2{
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.quick{
+  margin-top: 50px;
+  margin-left: 55px;
+  border: 0.75px solid black;
+  padding: 0px 10px 0px 10px;
+  height: 100px;
+
+}
+
+.quick h1{
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.quick h2{
+  margin-bottom: 2px;
+  margin-top: 5px;
+}
+
+#second{
+  margin-top: 0px;
+}
+
+.left h1, form{
+  text-decoration: none;
+}
+
+input{
+  width: 450px;
+  height: 25px;
+  font-size: 18px;
+  font-family: "Nunito",sans-serif;
+  font-weight: 200;
+  background-color: rgba(52, 32, 116, 0.2);
+  border: none;
+  margin-left: 10px;
+}
+
+.employee-info{
+  margin-left: 360px;
+  margin-top: 40px;
+  display: flex;
+}
+
+.title h1{
+  font-size: 48px;
+  font-weight: 200;
+}
+
+.basic-info{
+  width: 750px;
+}
+
+.basic-info h1, .job-info h1{
+  font-size: 32px;
+  font-weight: 200;
+}
+
+.basic-info h2, .job-info h2{
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.basic-info p{
+  font-size: 18px;
+  padding-right: 15px;
+}
+
+button{
+  box-shadow: none;
+  background-color: #342074;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  border: none;
+  width: 130px;
+  height: 30px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#done{
+  box-shadow: none;
+  background-color: #342074;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  border: none;
+  width: 70px;
+  height: 30px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.job-info{
+  margin-top: 30px;
+}
+
+.pending{
+  width: 250px;
+  border-left: 0.75px solid black;
+  margin-top: 32px;
+}
+
+.pending h1{
+  font-size: 24px;
+  font-weight: 200;
+  margin-left: 15px;
+}
+
+.pending h2{
+  font-size: 18px;
+  font-weight: 200;
+  margin-left: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav a{
+  color: black;
+}
+
+#avail-leave{
+  width: 65px;
+  margin-right: 10px;
+}
+
+#smaller-inp{
+    height:20px;
+}
+
+.btn-move{
+    margin-left:160px;
+    margin-top:50px;
+}
+
+.start-date{
+    width:90px;
+}
+
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+a{text-decoration: none !important;
+color: whitesmoke;}
